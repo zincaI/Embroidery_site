@@ -1,0 +1,93 @@
+#nav-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: black;
+  padding: 10px; 
+  box-sizing: border-box; 
+  z-index: 0; 
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right; 
+}
+
+#nav-bar ul li {
+  display: inline;
+  margin-left: 10px; 
+}
+
+#nav-bar ul li:first-child {
+  margin-left: 0;
+}
+
+#nav-bar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#nav-bar ul li a:hover {
+  color: red;
+}
+
+.lego-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+body {
+  background-color: black;
+}
+
+a:link,
+a:visited {
+  color: #ffffff; 
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+p,li,ul {
+  color: #ffffff;
+  font-family: verdana;
+  font-size: 16px; 
+}
+
+h2,label{
+  color:#ffffff;
+}
+
+input{ background-color:#ffffff;
+border-radius:5px;
+font-family:georgia;
+text-align:center;
+margin:0 auto;
+margin-left: 0;
+display:block;
+
+}
+
+#submit{
+  margin-left: 45px;
+}
